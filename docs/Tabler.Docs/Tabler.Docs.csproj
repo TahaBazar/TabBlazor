@@ -1,35 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
-
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
-
   <ItemGroup>
     <Content Remove="compilerconfig.json" />
   </ItemGroup>
-
   <ItemGroup>
     <None Include="compilerconfig.json" />
   </ItemGroup>
-
-   <ItemGroup>
+  <ItemGroup>
     <SupportedPlatform Include="browser" />
   </ItemGroup>
-
-	<ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Blazor-ApexCharts" Version="3.4.0" />
     <PackageReference Include="ClosedXML" Version="0.104.2" />
     <PackageReference Include="ColorCode.HTML" Version="2.0.15" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.8" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
-    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\..\src\TabBlazor\TabBlazor.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <Content Update="Components\Helpers\ClickOutside\Multiple.razor">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
@@ -38,5 +31,4 @@
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
   </ItemGroup>
-
 </Project>
