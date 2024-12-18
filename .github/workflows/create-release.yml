@@ -17,7 +17,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: 8.0.x
+          dotnet-version: 9.0.x
 
       - uses: dotnet/nbgv@master
         id: nbgv
@@ -27,9 +27,9 @@ jobs:
         working-directory: src/TabBlazor
         run: dotnet pack -c Release
 
-      - name: Push TabBlazor
+      - name: Push TabBlazorjj
         working-directory: src/TabBlazor/bin/Release
-        run: dotnet nuget push TabBlazor.*.nupkg -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_API_KEY }}
+        run: dotnet nuget push TabBlazorjj.*.nupkg -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_API_KEY }}
 
       - name: Pack TabBlazor.QuickTable.EntityFramework
         working-directory: src/TabBlazor.QuickTable.EntityFramework

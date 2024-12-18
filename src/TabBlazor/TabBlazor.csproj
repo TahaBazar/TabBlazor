@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <PackageId>TabBlazor</PackageId>
+    <PackageId>TabBlazorjj</PackageId>
     <Description>Blazor dashboard admin theme based on Tabler UI. Minimal Javascript</Description>
     <Authors>Joakim Dangården</Authors>
-    <Product>TabBlazor</Product>
+    <Product>TabBlazorjj</Product>
     <PackageTags>Blazor Tabler Admin Theme</PackageTags>
-    <RepositoryUrl>https://github.com/TabBlazor/TabBlazor</RepositoryUrl>
-    <PackageProjectUrl>https://tabblazor.com/</PackageProjectUrl>
-    <Version>1.6.9</Version>
+    <RepositoryUrl>https://github.com/TahaBazar/TabBlazor</RepositoryUrl>
+    <PackageProjectUrl>https://jmnt.ir/</PackageProjectUrl>
+    <Version>1.6.12</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
     <PackageIcon>TabBlazorLogo.png</PackageIcon>
