@@ -32,7 +32,7 @@
     <SupportedPlatform Include="browser" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LinqKit.Core" Version="1.2.5" />
+    <PackageReference Include="LinqKit.Core" Version="1.2.7" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="9.0.0" />
   </ItemGroup>
@@ -46,5 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\css" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Nerdbank.GitVersioning" Version="3.7.112" />
   </ItemGroup>
 </Project>
